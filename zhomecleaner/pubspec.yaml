@@ -1,0 +1,31 @@
+name: zhomecleaner
+description: "Aplikasi penyedia layanan kebersihan dan perawatan rumah tangga profesional."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  smooth_page_indicator: ^1.2.0
+  intl: ^0.20.2
+  shimmer: ^3.0.0
+  provider: ^6.1.5
+  shared_preferences: ^2.3.3
+  image_picker: ^1.2.2
+  table_calendar: ^3.2.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
